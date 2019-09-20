@@ -18,23 +18,25 @@ ul{
 }
 
 /* Header */
-header{
+header#home{
     background: #35424a;
-    
+    text-align: center;
+}
+
+header ul{
+display:inline-block;
+list-style:none; 
+}
+
+header li{
+    float:left;
+    padding:17px 5px 15px 5px;
+    display: inline;
 }
 
 header li a{
     color: #e8c94c;
     text-decoration: none;
     font-size: 18px;
-}
-
-header ul{
-    text-decoration: none;
-}
-
-nav li{
-    float:left;
-    padding:18px;
-    display: inline;
+    
 }
