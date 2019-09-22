@@ -19,7 +19,7 @@ ul{
 
 /* Header */
 header#home{
-    background: #35424a;
+    background: #40596b;
     text-align: center;
 }
 
@@ -38,5 +38,28 @@ header li a{
     color: #e8c94c;
     text-decoration: none;
     font-size: 18px;
-    
+}
+/* Section Home*/
+section#home{
+    background: #55c1ec;
+}
+
+/*Section About */
+section#about{
+    background: #fafafa;
+}
+
+/* Section Features */
+section#features{
+    background: #90dda9;
+}
+
+/* Add To Slack */
+section#addToSlack{
+    background: #fafafa;
+}
+
+/* Footer */
+footer{
+    background: #40596b;
 }
