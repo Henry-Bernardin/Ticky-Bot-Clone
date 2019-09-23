@@ -50,11 +50,18 @@ header li a::selection{
 /* Section Home*/
 section#home{
     background: #55c1ec;
-    padding-bottom: 230px;
+    padding-bottom: 120px;
+}
+
+section#home .container{
+display:flex;
+justify-content: space-evenly;
+align-items: center;
 }
 
 section#home h1{
     font-size: 65px;
+    margin-bottom: 25px;
 }
 
 section#home p{
@@ -67,6 +74,12 @@ section#home button{
     border: none;
     height: 75px;
     width: 300px;
+}
+
+section#home img{
+    height: 275px;
+    width: 300px;
+    margin-top: 50px;
 }
 
 section#home button span{
