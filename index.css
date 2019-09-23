@@ -62,11 +62,13 @@ align-items: center;
 section#home h1{
     font-size: 65px;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 section#home p{
     color: #fafafa;
     font-size: 24px;
+    text-align: center;
 }
 
 section#home button{
@@ -74,6 +76,7 @@ section#home button{
     border: none;
     height: 75px;
     width: 300px;
+    margin-left:75px;
 }
 
 section#home img{
