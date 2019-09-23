@@ -50,10 +50,11 @@ header li a::selection{
 /* Section Home*/
 section#home{
     background: #55c1ec;
+    padding-bottom: 230px;
 }
 
 section#home h1{
-    font-size: 60px;
+    font-size: 65px;
 }
 
 /*Section About */
