@@ -17,6 +17,10 @@ ul{
     margin:0;
 }
 
+h1{
+    font-size: 32px;
+}
+
 /* Header */
 header#home{
     background: #40596b;
@@ -54,9 +58,9 @@ section#home{
 }
 
 section#home .container{
-display:flex;
-justify-content: space-evenly;
-align-items: center;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 section#home h1{
@@ -85,13 +89,22 @@ section#home img{
     margin-top: 50px;
 }
 
-section#home button span{
-    
-}
-
 /*Section About */
 section#about{
     background: #fafafa;
+}
+
+ section#about h1{
+    text-align: center;
+} 
+section#about article#main-col{
+    float:left;
+    width:50%;
+}
+
+section#about article#side-col{
+    float:right;
+    width:50%;
 }
 
 /* Section Features */
@@ -99,10 +112,18 @@ section#features{
     background: #90dda9;
 }
 
+section#features h1{
+    text-align: center;
+} 
+
 /* Add To Slack */
 section#addToSlack{
     background: #fafafa;
 }
+
+section#addToSlack h1{
+    text-align: center;
+} 
 
 /* Footer */
 footer{
