@@ -30,18 +30,30 @@ list-style:none;
 
 header li{
     float:left;
-    padding:17px 5px 15px 5px;
+    padding:17px 8px 13px 8px;
     display: inline;
 }
 
 header li a{
-    color: #e8c94c;
+    color: #ffd05a;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 19px;
 }
+header li a:hover{
+    color:#fafafa;
+    transition: 0.5s;
+}
+header li a::selection{
+    background-color: #6fbef7;
+}
+
 /* Section Home*/
 section#home{
     background: #55c1ec;
+}
+
+section#home h1{
+    font-size: 60px;
 }
 
 /*Section About */
