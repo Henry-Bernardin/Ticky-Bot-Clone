@@ -57,6 +57,22 @@ section#home h1{
     font-size: 65px;
 }
 
+section#home p{
+    color: #fafafa;
+    font-size: 24px;
+}
+
+section#home button{
+    font-size: 25px;
+    border: none;
+    height: 75px;
+    width: 300px;
+}
+
+section#home button span{
+    
+}
+
 /*Section About */
 section#about{
     background: #fafafa;
