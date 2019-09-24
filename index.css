@@ -96,16 +96,32 @@ section#about{
 
  section#about h1{
     text-align: center;
+    align-items: center;
 } 
+
+section#about  p{
+   font-size: 17px;
+} 
+
+section#about .container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+/*
 section#about article#main-col{
     float:left;
     width:50%;
-}
+    margin-top: -18px; 
+    padding-left: 75px;
+    padding-right: 40px;
+} 
 
 section#about article#side-col{
     float:right;
     width:50%;
-}
+    margin-right: -75px;
+} */
 
 /* Section Features */
 section#features{
