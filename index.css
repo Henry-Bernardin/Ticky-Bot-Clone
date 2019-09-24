@@ -126,6 +126,7 @@ section#about article#bottom-col{
     grid-column-start: 1;
     grid-column-end: 3;
     padding-left: 60px;
+    padding-right: 60px;
 } 
 
 /* Section Features */
