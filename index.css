@@ -134,9 +134,18 @@ section#features{
     background: #90dda9;
 }
 
+section#features .container{
+    display: grid;
+    justify-content: space-evenly;
+}
+
 section#features h1{
     text-align: center;
 } 
+
+section#features div{
+    border: #830202 solid 1px;
+}
 
 /* Add To Slack */
 section#addToSlack{
