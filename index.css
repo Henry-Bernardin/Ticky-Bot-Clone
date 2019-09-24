@@ -97,7 +97,7 @@ section#about{
 section#about .container{
     display:grid;
     grid-template-columns: auto auto auto;
-}
+} 
 
  section#about h1{
   grid-column-start: 2;
