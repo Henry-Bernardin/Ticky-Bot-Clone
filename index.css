@@ -28,8 +28,8 @@ header#home{
 }
 
 header ul{
-display:inline-block;
-list-style:none; 
+    display:inline-block;
+    list-style:none; 
 }
 
 header li{
@@ -100,8 +100,9 @@ section#about .container{
 } 
 
  section#about h1{
-  grid-column-start: 2;
-  grid-column-end: 2; 
+    grid-column-start: 2;
+    grid-column-end: 2; 
+    margin-left: -190px;
 } 
 
 section#about  p{
@@ -109,18 +110,22 @@ section#about  p{
 } 
 
 section#about article#main-col{
-  grid-column-start: 1;
-  grid-column-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-left: 60px;
+    padding-right: 60px;
 } 
 
 section#about article#side-col{
     grid-column-start: 2;
     grid-column-end: 3;
+    padding-right: 60px;
   } 
 
 section#about article#bottom-col{
-  grid-column-start: 1;
-  grid-column-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-left: 60px;
 } 
 
 /* Section Features */
