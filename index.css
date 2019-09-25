@@ -78,7 +78,7 @@ section#home p{
 section#home button{
     font-size: 25px;
     border: none;
-    height: 75px;
+    height: 70px;
     width: 300px;
     margin-left:75px;
 }
@@ -155,14 +155,19 @@ section#features .box-1, section#features .box-2, section#features .box-3{
 section#features .box-info-1, section#features .box-info-2, section#features .box-info-3{
     background: #edf1f3;
     text-align: center;
-    width: 300px;
+    width: 320px;
     margin-top: 50px;
     height: 125px;
-    
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
 }
 
 section#features .container h4{
     padding-top: 25px;
+}
+
+section#features .box-1 img, section#features .box-2 img, section#features .box-3 img{
+    margin-top: 20px;
 }
 
 section#features img{
@@ -176,9 +181,33 @@ section#features img{
 section#features .red{
     color: red;
 }
+
 /* Add To Slack */
 section#addToSlack{
     background: #fafafa;
+}
+
+section#addToSlack .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    height: 375px;
+    padding-bottom: 25px;
+}
+
+section#addToSlack button{
+    font-size: 25px;
+    border: none;
+    height: 70px;
+    width: 300px;
+    background: #40596b;
+    color: #f4f4f4;
+}
+
+section#addToSlack p{
+    font-size: 18px;
 }
 
 section#addToSlack h1{
@@ -188,4 +217,11 @@ section#addToSlack h1{
 /* Footer */
 footer{
     background: #40596b;
+    color:#f4f4f4;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer p{
+    font-family: 'Times New Roman', Times, serif; 
 }
