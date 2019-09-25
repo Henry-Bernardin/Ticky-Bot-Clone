@@ -135,20 +135,36 @@ section#features{
 }
 
 section#features .container{
-    display: grid;
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
 }
 
 section#features h1{
     text-align: center;
+    padding-top: 30px;
 } 
 
 section#features .box-1, section#features .box-2, section#features .box-3{
     background: #40596b;
+    margin: 5px;
+    height: 325px;
+    border-radius: 5%;
 }
 
 section#features .box-info-1, section#features .box-info-2, section#features .box-info-3{
     background: #edf1f3;
+    text-align: center;
+    width: 300px;
+    margin-top: 50px;
+    height: 125px;
+    
 }
+
+section#features .container h4{
+    padding-top: 25px;
+}
+
 section#features img{
     width: 200px;
     height: 200px;
