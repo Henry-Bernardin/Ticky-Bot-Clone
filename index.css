@@ -153,6 +153,10 @@ section#features img{
     margin-left: auto;
     margin-right: auto;
 }
+
+section#features .red{
+    color: red;
+}
 /* Add To Slack */
 section#addToSlack{
     background: #fafafa;
