@@ -21,6 +21,10 @@ h1{
     font-size: 32px;
 }
 
+button a{
+    text-decoration: none;
+}
+
 /* Header */
 header#home{
     background: #40596b;
@@ -43,10 +47,12 @@ header li a{
     text-decoration: none;
     font-size: 19px;
 }
+
 header li a:hover{
     color:#fafafa;
     transition: 0.5s;
 }
+
 header li a::selection{
     background-color: #6fbef7;
 }
@@ -81,6 +87,10 @@ section#home button{
     height: 70px;
     width: 300px;
     margin-left:75px;
+}
+
+section#home button a:visited{
+    color:black;
 }
 
 section#home img{
@@ -203,7 +213,10 @@ section#addToSlack button{
     height: 70px;
     width: 300px;
     background: #40596b;
-    color: #f4f4f4;
+}
+
+section#addToSlack button a:visited{
+    color:#f4f4f4;
 }
 
 section#addToSlack p{
