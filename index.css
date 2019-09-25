@@ -136,17 +136,23 @@ section#features{
 
 section#features .container{
     display: grid;
-    justify-content: space-evenly;
 }
 
 section#features h1{
     text-align: center;
 } 
 
-section#features div{
-    border: #830202 solid 1px;
+section#features .box-image-1, section#features .box-image-2, section#features .box-image-3{
+    background: #40596b;
 }
 
+section#features img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* Add To Slack */
 section#addToSlack{
     background: #fafafa;
