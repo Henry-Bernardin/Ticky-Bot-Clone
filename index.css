@@ -142,10 +142,13 @@ section#features h1{
     text-align: center;
 } 
 
-section#features .box-image-1, section#features .box-image-2, section#features .box-image-3{
+section#features .box-1, section#features .box-2, section#features .box-3{
     background: #40596b;
 }
 
+section#features .box-info-1, section#features .box-info-2, section#features .box-info-3{
+    background: #edf1f3;
+}
 section#features img{
     width: 200px;
     height: 200px;
