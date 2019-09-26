@@ -21,6 +21,11 @@ h1{
     font-size: 32px;
     text-underline-position: under;
     text-decoration: underline #6fbef7;
+    font-weight: normal;
+}
+
+.black-bold{
+    font-weight: bold;
 }
 
 button a{
