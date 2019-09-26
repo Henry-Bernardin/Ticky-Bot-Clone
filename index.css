@@ -189,6 +189,7 @@ section#features .box-info-1, section#features .box-info-2, section#features .bo
 
 section#features .container h4{
     padding-top: 25px;
+    font-weight: normal;
 }
 
 section#features .box-1 img, section#features .box-2 img, section#features .box-3 img{
