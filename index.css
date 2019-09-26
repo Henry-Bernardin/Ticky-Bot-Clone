@@ -19,11 +19,21 @@ ul{
 
 h1{
     font-size: 32px;
+    text-underline-position: under;
+    text-decoration: underline #6fbef7;
 }
 
 button a{
     text-decoration: none;
 }
+
+.custom-underline::after {
+    top: 65%;
+    height: 2px;
+    width: 90%;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
 
 /* Header */
 header#home{
