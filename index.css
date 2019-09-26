@@ -1,3 +1,8 @@
+
+html {
+	scroll-behavior: smooth;
+}
+
 body{
     font:15px/1.5 arial, helvetica, sans-serif; 
     padding:0;
