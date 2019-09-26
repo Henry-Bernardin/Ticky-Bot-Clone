@@ -280,3 +280,18 @@ footer p a:visited{
     transform: translateY(30%);
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
   }
+
+  /* Media Queries */ 
+@media(max-width: 768px){
+    section#home .container
+    {
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        margin-bottom: -90px;
+    }
+    
+    section#features .container{
+        display: flex;
+       align-items:center; 
+       flex-direction: column; 
