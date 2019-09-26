@@ -238,3 +238,7 @@ footer{
 footer p{
     font-family: 'Times New Roman', Times, serif; 
 }
+
+footer p a:visited{
+    color: #f4f4f4;
+}
