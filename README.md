@@ -19,4 +19,4 @@ I cloned this project with vanilla HTML/CSS and JavaScript. Also CSS grid, flexb
 
 ## Tech Used / Dependencies
 
--Images used from [Pixabay](https://pixabay.com/)
+- Images used from [Pixabay](https://pixabay.com/)
