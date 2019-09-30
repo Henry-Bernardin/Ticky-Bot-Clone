@@ -119,9 +119,9 @@ section#home img{
     margin-top: 90px;
 }
 
-#heading-animation{
-    animation: moveInleft;
-    animation-duration: 3s;
+section#home h1#heading-animation{
+    animation-name: moveInLeft;
+    animation-duration: 5s;
 }
 
 /*Section About */
@@ -305,10 +305,10 @@ footer p a:visited{
     /* Animation */
     @keyframes moveInLeft{
         0% {opacity: 0;
-            transform: translateX(-100px);
+            transform:rotate(180deg); 
         }
 
         100% {opacity: 1;
-            transform: translateX(0);
+            transform: rotate(20deg);
         }
     }
